@@ -1,9 +1,4 @@
 function solution(num1, num2) {
-    var answer = 0;
-    
-    answer = num1 / num2
-    
-    answer = Math.trunc(answer)
-    
-    return answer;
+    // Math.trunc(num1 / num2)
+   return parseInt(num1 / num2);
 }
