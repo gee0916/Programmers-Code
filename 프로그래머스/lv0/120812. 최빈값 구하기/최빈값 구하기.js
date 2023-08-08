@@ -15,7 +15,7 @@ function solution(array) {
     
   maxCnt = Math.max(...Object.values(cnt));
   result = Object.keys(cnt).filter((x) => cnt[x] === maxCnt);
-    result = result.length === 1 ? Number(result) : -1
+    result = result.length === 1 ? parseInt(result) : -1
 
   return result;
 }
