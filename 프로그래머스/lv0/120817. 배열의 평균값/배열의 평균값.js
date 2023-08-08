@@ -1,3 +1,3 @@
 function solution(numbers) {
-    return numbers.reduce((a,b) => a+b)/numbers.length;
+    return numbers.reduce((a,b) => a+b ,0 )/numbers.length;
 }
