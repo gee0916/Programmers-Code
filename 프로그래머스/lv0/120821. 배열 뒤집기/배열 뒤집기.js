@@ -1,3 +1,4 @@
 function solution(num_list) {
-    return num_list.reverse();
+  //num_list.sort((a,b)=>-1)
+  return num_list.reverse();
 }
