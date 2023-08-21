@@ -12,6 +12,5 @@ function solution(n) {
     if (factorial(result) > n) {
       return --result;
     }
-    factorial(result);
   }
 }
