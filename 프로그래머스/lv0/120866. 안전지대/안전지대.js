@@ -1,6 +1,5 @@
 function solution(board) {
   let result = 0;
-  let test = 0;
 
     board.forEach((a, x) => {
     a.forEach((b, y) => {
