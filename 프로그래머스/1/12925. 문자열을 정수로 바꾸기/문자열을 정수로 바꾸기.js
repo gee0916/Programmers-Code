@@ -1,3 +1,3 @@
 function solution(s) {
-    return eval(s);
+    return +s;
 }
